@@ -1,75 +1,16 @@
-# Nuxt Minimal Starter
+# Zero + Nuxt + TypeScript + Vite (WIP)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Server side rendering is unavailable.
 
-## Setup
-
-Make sure to install dependencies:
-
-```bash
-# npm
+```shell
+git clone git@github.com:rocicorp/hello-zero-nuxt.git
+cd hello-zero-nuxt
 npm install
+npm run dev:db-up
 
-# pnpm
-pnpm install
+# in a second terminal
+npm run dev:zero-cache
 
-# yarn
-yarn install
-
-# bun
-bun install
+# in yet another terminal
+npm run dev:ui
 ```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
